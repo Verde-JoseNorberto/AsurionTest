@@ -8,7 +8,9 @@ public class loginTest {
 
     public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\norbe\\Documents\\Eclipse Files\\asurion_test\\chromedriver.exe");
+    	
+    	// Accessing Directory for chromedriver. Modify Path to expected directory.
+        System.setProperty("webdriver.chrome.driver", "C:\\xampp\\htdocs\\AsurionTest\\asurion_test\\chromedriver.exe");
 
         WebDriver driver = new ChromeDriver();
         
