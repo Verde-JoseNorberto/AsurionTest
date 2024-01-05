@@ -7,7 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class loginTest {
 
     public static void main(String[] args) throws InterruptedException {
-		// TODO Auto-generated method stub
+	// TODO Auto-generated method stub
     	
     	// Accessing Directory for chromedriver. Modify Path to expected directory.
         System.setProperty("webdriver.chrome.driver", "C:\\xampp\\htdocs\\AsurionTest\\asurion_test\\chromedriver.exe");
@@ -46,10 +46,10 @@ public class loginTest {
     private static void logout(WebDriver driver) throws InterruptedException {
         // Click on the menu button
     	Thread.sleep(2000);
-		driver.findElement(By.xpath("/html/body/div/div/div/div[1]/div[1]/div[1]/div/div[1]/div/button")).click();
+	driver.findElement(By.xpath("/html/body/div/div/div/div[1]/div[1]/div[1]/div/div[1]/div/button")).click();
 
         // Click on the logout button
-		Thread.sleep(2000);
-		driver.findElement(By.xpath("/html/body/div/div/div/div[1]/div[1]/div[1]/div/div[2]/div[1]/nav/a[3]")).click();
+	Thread.sleep(2000);
+	driver.findElement(By.xpath("/html/body/div/div/div/div[1]/div[1]/div[1]/div/div[2]/div[1]/nav/a[3]")).click();
     }
 }
